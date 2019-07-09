@@ -8,9 +8,11 @@ int main()
 	cout << "*** TICKET SOLD ***" << endl;
 	cout << endl;
 	
+	//TICKET PRICES
 	cout << "Here are the ticket prices:\n" << "PHP 250.00\n" << "PHP 100.00\n" << "PHP 50.00\n" << "PHP 25.00\n" << endl;
 	cout << endl;
 	
+	//TICKET SOLD IN EACH TYPE
 	double x, y, z, a;
 	cout << "Please enter purchased ticket/s sold in PREMIUM: "; cin >> x;
 	cout << "Please enter purchased ticket/s sold in SIDELINE: "; cin >> y;
@@ -19,6 +21,7 @@ int main()
 	cout << endl;
 	cout << endl;
 	
+	//TOTAL SOLD AND TOTAL SALES
 	cout << "Ticket Type" << "		" << "Ticket Price" << "	" << "Number of Tickets Sold" << "		" << "Total Amount of Income"<< endl;
 	cout <<  "PREMIUM" << "			" <<"Php 250.00" << "	" << x << "				" << "PHP "<< 250*x << ".00" << endl;
 	cout <<  "SIDELINE" << "		" <<"Php 100.00" << "	" << y << "				" << "PHP "<< 100*y << ".00" << endl;
