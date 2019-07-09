@@ -11,6 +11,7 @@ int main()
 	cout << "Please Enter the Following Data Needed..." << endl;
 	cout << endl;
 	
+	//INPUT DATA
 	int w, x, y, z;
 	cout << "Net Balance: "; cin >> w;
 	cout << "Payment: "; cin >> x;
@@ -21,10 +22,12 @@ int main()
 	cout << "PROCESSING..." << endl;
 	cout << endl;
 	
+	//AVERAGE DAILY BALANCE COMPUTATION
 	cout << setprecision(2) << fixed;
 	cout << "The Average Daily Balance is " << "Php " << ((w*y)-(x*z))/y << "." << endl;
 	cout << endl;
 	
+	//INTEREST COMPUTATION
 	int a;
 	a = ((w*y)-(x*z))/y;
 	cout << setprecision(2) << fixed;
